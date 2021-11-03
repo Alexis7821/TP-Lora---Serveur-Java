@@ -1,3 +1,6 @@
+/*MOURLANETTE Alexis & BAHU Florian - I4GRIT - Réseaux IOT / Serveur Java*/
+
+/*Bibliothèques nécessaires*/
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.io.BufferedReader;
@@ -5,8 +8,7 @@ import java.io.InputStreamReader;
 
 
 class Serveur {	 	
-    public static void main(String[] args)
-	{
+    public static void main(String[] args){
 		int port=8010;
 		ServerSocket serv;
 		Socket socket;
