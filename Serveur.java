@@ -6,7 +6,6 @@ import java.net.Socket;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-
 class Serveur {	 	
     public static void main(String[] args){
 		int port = 8010; //port personnel (choisi dans notre association)
